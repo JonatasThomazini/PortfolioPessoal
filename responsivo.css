@@ -1,0 +1,256 @@
+@media(max-width: 1300px){
+    .efeito-escrito {
+        color: rgb(129, 3, 255);
+        font-size: 38px;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 2s steps(13) infinite alternate,
+        blink 500ms steps(10) infinite normal;
+        border-right: 5px solid rgb(253, 253, 253);
+      }
+      @keyframes typewriter {
+        from {
+            overflow: hidden;
+          width: 35%;
+        }
+        to {
+          width: 5%;
+        }
+      }
+      @keyframes blink {
+        from {
+          border-color: rgb(255, 255, 255);
+        }
+        to {
+          border-color: transparent;
+        }
+      }
+    }
+@media screen and (max-width: 950px){
+    #nav {
+        position: relative;
+        
+    }
+   
+    #btn-mobile {
+        display: block;
+        position: absolute;
+        left: 4%;
+        bottom: 12%;
+        border: none;
+        background: none;
+    }
+    #menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 78px;
+        right: 0px;
+        background: rgb(21, 1, 43);
+        
+    }
+    #menu li {
+        text-align: center;
+        display: block;
+        font-size: 30px;
+        padding: 8px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.151);
+        
+    }
+    #nav a:hover{
+      background: none;
+      color: white;
+        
+    }
+    .main-pefil{
+        display: flex;
+        justify-content: center;
+    }
+    .h1-header{
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        right: 4%;
+        bottom: 12%;
+    }
+    
+    .efeito-escrito {
+        color: rgb(129, 3, 255);
+        font-size: 48px;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 2s steps(13) infinite alternate,
+        blink 500ms steps(10) infinite normal;
+        border-right: 5px solid rgb(253, 253, 253);
+      }
+      @keyframes typewriter {
+        from {
+            overflow: hidden;
+          width: 60%;
+        }
+        to {
+          width: 5%;
+        }
+      }
+      @keyframes blink {
+        from {
+          border-color: rgb(255, 255, 255);
+        }
+        to {
+          border-color: transparent;
+        }
+      }
+      .Sobre{
+        width: 80%;
+        
+      }
+      .h3-projetos{
+        font-size: 32px;
+        margin-top: 4%;
+      }
+      .tec-projeto{
+        margin-bottom: 25%;
+        font-size: 20px;
+        
+      }
+      .txt{
+        font-size: 22px;
+      }
+    }
+
+
+@media screen and (max-width: 480px){
+    #nav {
+      position: relative;
+        
+    }
+   
+    #btn-mobile {
+        display: block;
+        position: absolute;
+        left: 4%;
+        bottom: 12%;
+        border: none;
+        background: none;
+    }
+    #menu{
+        display: none;
+        position: absolute;
+        left: 0%;
+        width: 155px;
+        height: 110px;   
+        
+    }
+    #menu li {
+      text-align: center;
+        padding: 8px;
+        font-size: 22px;
+        margin: 0;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.719);
+        background: rgb(27, 1, 54);
+
+    }
+    #nav a:hover{
+      background: none;
+      color: white;
+        
+    }
+    
+    .main-perfil{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .perfil{
+        width: 75%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .h1-header{
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        right: 4%;
+        bottom: 12%;
+    }
+    
+    
+    .efeito-escrito {
+        margin-top: 2%;
+        color: rgb(129, 3, 255);
+        font-size: 38px;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 2s steps(13) infinite alternate,
+        blink 500ms steps(10) infinite normal;
+        border-right: 5px solid rgb(253, 253, 253);
+      }
+      @keyframes typewriter {
+        from {
+            overflow: hidden;
+          width: 90%;
+        }
+        to {
+          width: 5%;
+        }
+      }
+      @keyframes blink {
+        from {
+          border-color: rgb(255, 255, 255);
+        }
+        to {
+          border-color: transparent;
+        }
+      }
+      .Sobre{
+        width: 98%;
+        margin-top: 30%;
+      }
+      .h2-habilidades{
+        margin-top: 30%;
+        margin-bottom: 5%;
+      }
+      .projeto-pokedex{
+        width: 80%;
+      }
+      .projeto-planeta{
+        width: 78%;
+      }
+      .h2-projeto{
+        margin-top: 25%;
+        margin-bottom: 12%;
+      }
+
+      .projeto-pokedex a:hover::before{
+        display: none;
+      }
+
+      .projeto-pokedex a:hover::after{
+        display: none;
+      }
+      .projeto-planeta a:hover::before{
+        display: none;
+      }
+
+      .projeto-planeta a:hover::after{
+        display: none;
+      }
+      .tec-projeto{
+        margin-bottom: 25%;
+        font-size: 20px;
+        
+      }
+      .txt{
+        font-size: 22px;
+      }
+      .footer-icons .fa{
+        margin-top: 4%;
+      }
+      .h3-projetos{
+        font-size: 32px;
+        margin-top: 4%;
+      }
+}
+
+
+    

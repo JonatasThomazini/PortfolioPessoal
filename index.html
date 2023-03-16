@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">  
+            
+            <h1 class="h1-header"> Portfólio</h1>
+            
+            <img src="https://img.icons8.com/nolan/64/xbox-menu.png" id="btn-mobile" onclick="toggleMenu()" />
+            <ul id="menu">
+                <li><a onclick="toggleTeste()"href="#Sobre" >Sobre</a> </li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato"  >Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main class="main-pefil">
+        <div class="perfil">
+            <img src="foto de perfil/perfil.jpeg" alt="Minha foto de perfil" class="img-perfil">
+            
+        </div>
+       
+    </main>
+    <div class="text-perfil">
+        <h3 class="h3-perfil">Olá, eu sou o</h3>
+        <h3 class="efeito-escrito">Jonatas Thomazini</h3>
+    </div>
+    <main class="main-sobre" id="Sobre">
+        <div class="Sobre">
+        <h3 class="h3-sobre">Sobre mim</h3>
+        <p class="p-sobre"> Sou um apaixonado por tecnlogia. Estou Cursando Análise Desenvolvimento de Sistemas na Cruzeiro do Sul. Tenho estudado frontend por conta propria. tendo em mente que estamos sempre em constante aprendizado</p>
+    </div>
+    <div id="Habilidades"></div>
+</main>
+    <h2 class="h2-habilidades">Habilidades</h2>
+    <section class="container-habilidades">
+      <div class="icon-habilidade">
+            <img src="img-skils/html5.png" alt="">
+            <p class="p-img">HTML5</p>
+      </div>
+      <div class="icon-habilidade">
+            <img src="img-skils/css.png" alt="">
+            <p class="p-img">CSS3</p>
+      </div>
+      <div class="icon-habilidade">
+            <img src="img-skils/java-script.png" alt="" class="javascript">
+            <p class="p-img">Java Script</p>
+      </div>
+    </section>
+    <h2 class="h2-projeto"id="Projetos">Projetos</h2>
+
+    <section class="skils">
+
+        <div class="projeto-pokedex">
+            <a href="https://jonatasthomazini.github.io/Pokemon-Pokedex/" target="_blank">
+                <img src="img-projetos/pokedex.png" alt="">
+            </a>
+            <h3 class="h3-projetos">Pokedex</h3>
+            <p class="txt">Projeto desenvolvido a partir do curso de Html5 Css3 e JavaScript, para por em prática meus estudos iniciais  </p>
+            <p class="tec-projeto">Tecnologias usadas no projeto: HTML5, CSS, JavaScript</p>
+        </div>
+        
+
+        <div class="projeto-planeta">
+            <a href="https://jonatasthomazini.github.io/Planetas/" target="_blank">
+                <img src="img-projetos/Planetas.png" alt="">
+            </a>
+            <h3 class="h3-projetos">Planeta</h3>
+            <p class="txt">Meu primeiro projeto me aventurando na área de tecnologia.
+            Ele calcula seu peso em outros Planetas
+            </p>
+            <p class="tec-projeto">Tecnologias usadas no projeto: HTML5, CSS, JavaScript</p>
+        </div>
+    </section>
+    <footer id="Contato">
+        <h3 class="h3-footer">Contato</h3>
+        <div class="container-footer">
+            
+          <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/jonatas-thomazini-a76aa620b/"target="_blank" ><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:jonatasthomazini@hotmail.com?subject=Questions"title=""target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B5511978306139&text&type=phone_number&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://github.com/JonatasThomazini" target="_blank"><i class="fa fa-github"></i></a>
+         </div>   
+</body>
+</html>
